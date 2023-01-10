@@ -1,0 +1,16 @@
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\bin\Debug\net5.0\Next_exersise.exe
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\bin\Debug\net5.0\Next_exersise.deps.json
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\bin\Debug\net5.0\Next_exersise.runtimeconfig.json
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\bin\Debug\net5.0\Next_exersise.runtimeconfig.dev.json
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\bin\Debug\net5.0\Next_exersise.dll
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\bin\Debug\net5.0\ref\Next_exersise.dll
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\bin\Debug\net5.0\Next_exersise.pdb
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\obj\Debug\net5.0\Next_exersise.csproj.AssemblyReference.cache
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\obj\Debug\net5.0\Next_exersise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\obj\Debug\net5.0\Next_exersise.AssemblyInfoInputs.cache
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\obj\Debug\net5.0\Next_exersise.AssemblyInfo.cs
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\obj\Debug\net5.0\Next_exersise.csproj.CoreCompileInputs.cache
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\obj\Debug\net5.0\Next_exersise.dll
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\obj\Debug\net5.0\ref\Next_exersise.dll
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\obj\Debug\net5.0\Next_exersise.pdb
+C:\Users\covuk\source\repos\C++ or C#\C#\Next_carrer_prep\Next_exersise\obj\Debug\net5.0\Next_exersise.genruntimeconfig.cache

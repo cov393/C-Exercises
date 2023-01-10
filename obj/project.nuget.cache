@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ic6colVMg1xZlO267kAPr2KiIImq0+tgnMwF7Xd8VCqO3YXYSWE1wwiWrpRDOleLqsNCRSP6NukWGDSRQbv8fQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\covuk\\source\\repos\\C++ or C#\\C#\\Next_carrer_prep\\Next_exersise\\Next_exersise.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\covuk\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
