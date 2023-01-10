@@ -6,77 +6,38 @@
 // For any other input (valid or otherwise) return a string representation of the input
 
 
+using Next_exersise.Exercises;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace Next_exersise
 {
     class Program
     {
-        static void Main(string[] args)
+        public readonly Fizz_Buzz_Class _fizz_buzz;
+        static async Task Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //var prog = new Exsersise();
-            string btchid = PrintFizzBuzz;
-
+            //await Fizz_Buzz_Class.PushAsync
+            ////var prog = new Exsersise();
+            Bootstrapper bs = new Bootstrapper();
+            await bs.GetList();
         }
 
-        internal static string PrintFizzBuzz(int input)
+        public class Bootstrapper
         {
-            Console.WriteLine("Its woking!");
-            for (int i = 1; i <= input; i++)
+
+            public async Task GetList()
             {
-                if (i % 3 == 0 && i % 5 == 0)
-                {
-                    Console.WriteLine("FizzBuzz");
-                                else if (i % 3 == 0)
-                    {
-                        Console.WriteLine("Fizz");
-                    }
-                    else if (i % 5 == 0)
-                    {
-                        Console.WriteLine("Buzz");
-                    }
-                    else
-                    {
-                        Console.WriteLine(i);
-                    }
-                }
-                string NewInput = input.ToString();
-                return NewInput;
-                // Your code goes here
+                Console.WriteLine("fuck!");
             }
         }
+        private async Task Hello()
+        {
+            Console.WriteLine("Hello");
+        }
+
     }
 }
-//    private class Exsersise
-//        {
-//            class PrintFizzBuzz (15)
-//            { 
-//                Console.WriteLine("Its woking!");
-//                for (int i = 1; i <= input; i++)
-//                {
-//                    if (i % 3 == 0 && i % 5 == 0)
-//                    {
-//                        Console.WriteLine("FizzBuzz");
-//                    else if (i % 3 == 0)
-//                    {
-//                        Console.WriteLine("Fizz");
-//                    }
-//                    else if (i % 5 == 0)
-//                    {
-//                        Console.WriteLine("Buzz");
-//                    }
-//                    else
-//                    {
-//                        Console.WriteLine(i);
-//                    }
-//                }
-//                string NewInput = input.ToString();
-//                return NewInput;
-//                // Your code goes here
-//            }
-//        }
-//    }
-//}
