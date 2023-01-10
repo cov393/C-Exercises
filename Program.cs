@@ -16,14 +16,15 @@ namespace Next_exersise
 {
     class Program
     {
-        public readonly Fizz_Buzz_Class _fizz_buzz;
+        //public  Fizz_Buzz_Class _fizz_buzz;
         static async Task Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //await Fizz_Buzz_Class.PushAsync
-            ////var prog = new Exsersise();
             Bootstrapper bs = new Bootstrapper();
             await bs.GetList();
+            Fizz_Buzz_Class.Fizz_Buzz fs = new Fizz_Buzz_Class.Fizz_Buzz();
+            await fs.Exersise1();
+            
         }
 
         public class Bootstrapper
