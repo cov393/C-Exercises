@@ -34,50 +34,42 @@ namespace Next_exersise.Exercises
         public string GetRecipient(string message, int position)
         {
             string[] str = message.Split(" ");
+            
+            string s1 = str[0];
 
-            //   string s1 = str[0];
-            //   Console.WriteLine(s1);
-
+            int count_possition = 0;
+            string signs = "?";
+            string indicator = "@";
+            string indicator_name = "";
+            string main_result = "";
+            
             for (int i = 0; i <= str.Length - 1; i++)
             {
-                if (str[i] == "@")
+                if (str[i].Contains(indicator))
                 {
-                    Console.
+                    string result1 = str[i].Remove(0, 1);
+                    indicator_name += result1;
+                    indicator_name += " ";
+                    if (indicator_name.Contains(signs))
+                    {
+                        for (int j=0; j <= indicator_name.Length - 1; j++)
+                        {
+                            count_possition += 1;
+                            if (indicator_name[j] == signs[0])
+                            {                                 
+                                main_result = indicator_name.Remove(count_possition-1);
+                            }                            
+                        }
+                    } 
+                    else if(!indicator_name.Contains(signs))
+                    {
+                        main_result = indicator_name;
+                    }
                 }
             }
+            string[] main_result_split = main_result.Split(" ");
+            return main_result_split[position - 1];
 
-            foreach (string s1 in str)
-            {
-
-                // string AtResult = i.IndexOf("@");
-                // Console.WriteLine(s1);
-
-                string result = s1.IndexOf("@");
-
-                Console.WriteLine(result);
-
-                // if (string i == AtResult){
-                //     Console.WriteLine("Found");
-                // }
-                // else{
-                //     Console.WriteLine("not found");
-                // }
-
-            }
-
-
-            // Console.WriteLine(message);
-            // string simb = "@";
-            // foreach(char words in message){
-            //     Console.WriteLine(words);
-            // }
-
-
-            // Console.WriteLine("( message, "+position+" = "+message);
-
-            // Console.WriteLine(position);
-            // Console.WriteLine(message + message.IndexOf("@"));
-            return "";
             // Your code goes here
         }
     }

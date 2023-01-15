@@ -19,15 +19,30 @@ namespace Next_exersise
         //public  Fizz_Buzz_Class _fizz_buzz;
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Bootstrapper bs = new Bootstrapper();
-            Console.Write(bs.Hello(15));
-            Fizz_Buzz_Class.Fizz_Buzz fs = new Fizz_Buzz_Class.Fizz_Buzz();
+            //Console.WriteLine("Hello World!");
+            //Bootstrapper bs = new Bootstrapper();
+            //Console.Write(bs.Hello(15));
+            Console.WriteLine("\t");
+            Console.WriteLine("\t");
+            //Fizz_Buzz_Class.Fizz_Buzz fs = new Fizz_Buzz_Class.Fizz_Buzz();
             //await fs.Exersise2(11);
             //Console.WriteLine("{0}", fs.Exersise2(3));
             //await Hello(10);
             //var task = new Bootstrapper();
             //await task.Hello(11);
+            //Class1 cl = new Class1();
+            ////JoeBloggs
+            //Console.WriteLine(cl.Recipt("@JoeBloggs", 1));
+            ////FredBloggs
+            //Console.WriteLine(cl.Recipt("Hey @Joe_Bloggs what time are we meeting @FredBloggs?", 2));
+
+            Solution social_net = new Solution();
+            //JoeBloggs
+            Console.WriteLine(social_net.GetRecipient("@JoeBloggs", 1));
+            Console.WriteLine("*");
+            //FredBloggs
+            Console.WriteLine(social_net.GetRecipient("Hey @Joe_Bloggs what time are we meeting @FredBloggs?", 2));
+
         }
 
         public class Bootstrapper
